@@ -2,10 +2,10 @@
 
 Simple example to create a realm in Keycloak using bash scripting for local development.
 
-1. Start Keycloak in a local container in the development mode
-2. Use `cURL` to authenticate to get a [`JWT`](https://jwt.io/) to access the master realm to create the new example-realm
+1. Start Keycloak in a local container in the development mode.
+2. Use `cURL` to authenticate to get a [`JWT`](https://jwt.io/) to access the master realm to create the new example-realm.
 ![](images/keycloak-realm-bash-01.png)
-3. Use the `cURL` with the given `JWT` `access-token` to create the `example-realm`
+3. Use the `cURL` with the given `JWT` `access-token` to create the `example-realm`.
 ![](images/keycloak-realm-bash-02.png)
 
 ### Step 1: Clone the project
